@@ -1,6 +1,6 @@
 
 function attachEventHandlers() {
-	// TODO
+	$('.image').on('click', handleImageClick);
 }
 
 function handleImageClick(event) {
