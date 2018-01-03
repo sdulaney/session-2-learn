@@ -16,6 +16,7 @@ function handleImageClick(event) {
 		images.removeClass('selected');
 		images.addClass('not-selected');
 		target.addClass('selected');
+		target.removeClass('not-selected');
 	}
 }
 
