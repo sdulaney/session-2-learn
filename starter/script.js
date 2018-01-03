@@ -10,7 +10,7 @@ function handleImageClick(event) {
 	const preview = $('.preview-image');
 
 	// TODO
-
+	console.log('hello world!');
 }
 
 $('document').ready(function() {
