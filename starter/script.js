@@ -12,6 +12,7 @@ function handleImageClick(event) {
 		target.removeClass('selected');
 	}
 	else {
+		images.removeClass('selected');
 		target.addClass('selected');
 	}
 }
