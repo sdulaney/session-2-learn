@@ -8,7 +8,12 @@ function handleImageClick(event) {
 	const images = $('.photo-row .image');
 	const info = $('.info-pane');
 	const preview = $('.preview-image');
-	target.addClass('selected');
+	if(target.hasClass('selected')) {
+		target.removeClass('selected');
+	}
+	else {
+		target.addClass('selected');
+	}
 }
 
 $('document').ready(function() {
