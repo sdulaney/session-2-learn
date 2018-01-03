@@ -8,9 +8,7 @@ function handleImageClick(event) {
 	const images = $('.photo-row .image');
 	const info = $('.info-pane');
 	const preview = $('.preview-image');
-
-	// TODO
-	console.log('hello world!');
+	target.addClass('selected');
 }
 
 $('document').ready(function() {
